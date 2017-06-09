@@ -18,5 +18,4 @@ const asyncTask = async () => {
   let user = await UserModel.find({})
     .catch(_.err('Error while sending notification'))
 }
-
 ```
