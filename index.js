@@ -7,7 +7,7 @@
  *  @example
  *  //
  *  import _ from util
- *  _.error('Failed to Connect')
+ *  _.err('Failed to Connect')
  */
 
 const _ = {
