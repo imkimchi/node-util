@@ -11,7 +11,7 @@
  */
 
 const _ = {
-    error() {
+    err() {
         let newErr = new Error(msg) 
         return e => {
             newErr.originalError = e
