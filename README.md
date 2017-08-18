@@ -16,6 +16,6 @@ _.log("I love lodash")
 ```
 const asyncTask = async () => {
   let user = await UserModel.find({})
-    .catch(_.err('Error while sending notification'))
+    .catch(_.err('Error while finding the user'))
 }
 ```
