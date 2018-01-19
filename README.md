@@ -19,3 +19,8 @@ const asyncTask = async () => {
     .catch(_.err('Error while finding the user'))
 }
 ```
+
+**_.colored**
+> console.log with chalk
+colored('red', "what's up bro")
+```
