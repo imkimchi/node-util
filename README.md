@@ -22,5 +22,6 @@ const asyncTask = async () => {
 
 **_.colored**
 > console.log with chalk
+```
 colored('red', "what's up bro")
 ```
