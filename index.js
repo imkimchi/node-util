@@ -10,15 +10,15 @@
  *  _.err('Failed to Connect')
  */
 
-const _ = {
-    err() {
+export default const _ = {
+    err: msg =>
         let newErr = new Error(msg) 
         return e => {
             newErr.originalError = e
             throw newErr
         }
     },
-    log = console.log
+    log = console.log,
+    colored: (color, msg) => console.log(chalk[color](msg)
+    }
 }
-
-export default _
