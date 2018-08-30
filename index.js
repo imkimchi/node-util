@@ -1,5 +1,5 @@
 /**
- * @author Philip Yoonshin <wbvcos@gmail.com
+ * @author Philip Yoonshin <wbvcos@gmail.com>
  */
 
 /** @description better version of try/catch
@@ -19,6 +19,6 @@ export default const _ = {
         }
     },
     log = console.log,
-    colored: (color, msg) => console.log(chalk[color](msg)
+    color: (color, msg) => console.log(chalk[color](msg)
     }
 }
